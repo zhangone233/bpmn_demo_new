@@ -1,0 +1,69 @@
+.bjs-powered-by {
+  display: none !important;
+}
+
+.bpmn-icon-task.red {
+  color: red;
+}
+
+.bpmn-icon-task.yellow {
+  color: yellow;
+}
+
+.bpmn-icon-task.green {
+  color: green;
+}
+
+
+.bjs-container .custom-palette {
+  width: 240px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #fff;
+  border-color: #ccc;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.bjs-container .custom-palette .group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.bjs-container .custom-palette .__bpmn-icon-task-custom {
+  width: 100%;
+  height: 60px;
+  margin: 10px 0;
+  display: flex;
+  cursor: move;
+}
+
+.bjs-container .custom-palette .__bpmn-icon-task-custom .__bpmn-task-custom-name {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.bjs-container .custom-palette .__bpmn-icon-task-custom .__bpmn-task-custom-name > p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: justify;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.bjs-container .custom-palette .__bpmn-icon-task-custom > img {
+  width: 38%;
+  height: 100%;
+  object-fit: cover;
+}
